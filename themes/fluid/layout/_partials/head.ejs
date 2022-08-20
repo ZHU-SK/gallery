@@ -49,15 +49,7 @@ var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_
   
   <meta name="apple-mobile-web-app-title" content="<%= config.title %>">
   <!-- 是否启用 WebApp 全屏模式 -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <!-- 禁止数字识自动别为电话号码 -->
-  <meta name="format-detection" content="telephone=no" />
-  <link rel="shortcut icon" href="<%- url_for(config.favicon || theme.favicon) %>">
-  <!--Apple iOS Safari ICON-->
-  <link rel="apple-touch-icon" sizes="57x57" href="<%= theme.apple_icon.iphone %>" />
-  <link rel="apple-touch-icon" sizes="72x72" href="<%= theme.apple_icon.ipad %>" />
-  <link rel="apple-touch-icon" sizes="114x114" href="<%= theme.apple_icon.iphone_hd %>" />
-  <link rel="apple-touch-icon" sizes="144x144" href="<%= theme.apple_icon.ipad_hd %>" />
+
   
   
 </head>
